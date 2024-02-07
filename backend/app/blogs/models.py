@@ -11,7 +11,7 @@ class Blog(models.Model):
         max_length=20, 
         default='false',
         choices=[
-            ('false', 'Fales'),
+            ('false', 'False'),
             ('true', 'True'),
         ])
     image = models.ImageField(upload_to='blogs/', blank=True, null=True)
